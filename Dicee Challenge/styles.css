@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;800&family=Titan+One&family=Titillium+Web:wght@200;300;400;600&display=swap');
+
+.root {
+  --ff-Gemunu: 'Gemunu Libre';
+  --ff-titan: 'Titan One';
+  --ff-Titillium: 'Titillium web';
+
+  --fw-x-small: 200;
+  --fw-small: 300;
+  --fw-average: 400;
+  --fw-large: 600;
+  --fw-x-large: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: hsla(216, 38%, 14%, 1);
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Titan One', cursive;
+  font-weight: var(--fw-average);
+  font-size: 4rem;
+  color: hsla(45, 97%, 88%, 1);
+}
+
+p {
+  font-size: 1.6rem;
+  color:hsla(45, 97%, 96%, 1);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color:hsla(45, 97%, 88%, 1);
+  text-align: center;
+  font-family: 'Gemunu Libre', sans-serif;
+
+}
