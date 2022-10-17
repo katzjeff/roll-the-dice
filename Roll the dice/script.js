@@ -15,5 +15,5 @@ if (randomDiceImage > randomDiceImage2) {
 } else if (randomDiceImage === randomDiceImage2) {
     document.querySelector('h1').innerHTML = 'Its a draw, please try again !';
 } else {
-    document.querySelector("h1").innerHTML = 'Hurray....you won';
+    document.querySelector("h1").innerHTML = 'Hurray....you won 🏆 🏆';
 }
